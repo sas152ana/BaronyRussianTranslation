@@ -1503,7 +1503,7 @@
       "icon_unlocked:": "BARONY_ACH_STRUNG_OUT.png"
     },
     "BARONY_ACH_STUCK_ON_YOU": {
-      "name": "Застрял на Тебе",
+      "name": "Застрял на тебе",
       "description": "Позвольте фонтану благословить ваше снаряжение в виде настоящей Суккубы.",
       "lore_points": 2,
       "category": "joker",

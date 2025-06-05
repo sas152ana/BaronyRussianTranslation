@@ -310,7 +310,7 @@
             "name_unidentified": "свиток"
         },
         "scroll_magicmapping": {
-            "name_identified": "свиток of магической карты",
+            "name_identified": "свиток магической карты",
             "name_unidentified": "свиток"
         },
         "scroll_repair": {
@@ -1022,12 +1022,12 @@
             "name_unidentified": "книга"
         },
         "spellbook_9": {
-            "name_identified": "book of 9",
-            "name_unidentified": "book"
+            "name_identified": "книга 9",
+            "name_unidentified": "книга"
         },
         "spellbook_10": {
-            "name_identified": "book of 10",
-            "name_unidentified": "book"
+            "name_identified": "книга 10",
+            "name_unidentified": "книга"
         },
         "magicstaff_poison": {
             "name_identified": "маг. посох яда",

@@ -48,7 +48,7 @@
 		"compact_scale_modifier_x": 0.5,
 		"compact_scale_modifier_y": 0.0
 	},
-	"alchemy_potion_names_to_filter": ["зелье ", "бутылка of "],
+	"alchemy_potion_names_to_filter": ["зелье ", "бутылка "],
 	"skills": [
 		{
 			"name": "Скрытность",

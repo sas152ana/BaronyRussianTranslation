@@ -2,7 +2,7 @@
 	"version": 1,
 	"descriptions": {
 		"human": {
-			"title": "Человек",
+			"title": "Гуманоид",
 			"text_line_highlights": {
 				"traits_lines": [1],
 				"benefit_lines": [5,8]

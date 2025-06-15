@@ -1,0 +1,102 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 29,
+			"g": 16,
+			"b": 11,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 255,
+			"g": 0,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+		"script_name": {
+			"sign": [
+				"$",
+				"This is my first $ line of $ text",
+				"This the $ second line in the text",
+				"Custom variable $ $ goes here!",
+				"And it goes here: $ woo!",
+				"Also, here: $ thank you."
+			],
+			"attributes": {
+				"font": "fonts/pixel_maz_multiline.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "top",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+			"variables": [
+				{
+					"type": "image",
+					"value": "*#images/system/backdrop_loading.png",
+					"sizex": 320,
+					"sizey": 180
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/Inventory/Appraisal_Icon.png",
+					"sizex": 24,
+					"sizey": 24
+				},
+				{
+					"type": "text",
+					"value": "variable text"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/Inventory/Appraisal_Icon.png",
+					"sizex": 64,
+					"sizey": 64
+				}
+			]
+		},
+		"script_name2": {
+			"script": "@script @clrplayer"
+		},
+		"script_name3": {
+			"message": [
+				"This is my first line of text",
+				"This the second line in the text",
+				"Custom variable $ goes here!",
+				"And it goes here: $ woo!",
+				"Also, here: $ thank you."
+			],
+			"variables": [
+				{
+					"type": "text",
+					"value": "variable text"
+				}
+			]
+		}
+	}
+}

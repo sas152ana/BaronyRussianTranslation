@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"adjectives": {
+		"food_status": {
+			"broken": "Гнилой",
+			"decrepit": "Прошлогодний",
+			"worn": "Оставшийся",
+			"serviceable": "Переподаренный",
+			"excellent": "Свежий"
+		}
+	}
+}

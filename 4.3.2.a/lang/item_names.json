@@ -66,8 +66,8 @@
             "name_unidentified": "стальная палица"
         },
         "steel_axe": {
-            "name_identified": "стальной топор",
-            "name_unidentified": "стальной топор"
+            "name_identified": "секира",
+            "name_unidentified": "секира"
         },
         "steel_shield": {
             "name_identified": "стальной щит",
@@ -1246,8 +1246,8 @@
 			"name_unidentified": "тюрбан"
 		},
 		"hat_crowned_helm": {
-			"name_identified": "шлем-корона",
-			"name_unidentified": "шлем-корона"
+			"name_identified": "королевский шлем",
+			"name_unidentified": "королевский шлем"
 		},
 		"hat_warm": {
 			"name_identified": "теплая шапка",
@@ -1314,7 +1314,7 @@
 			"name_unidentified": "капюшон"
 		},
 		"hat_hood_whispers": {
-			"name_identified": "капюшон шепота",
+			"name_identified": "маг. головной убор",
 			"name_unidentified": "капюшон"
 		},
 		"ring_resolve": {

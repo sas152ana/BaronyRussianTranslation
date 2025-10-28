@@ -2,16 +2,16 @@
     "version": 1,
     "items": {
         "bronze_sword": {
-            "name_identified": "мясницкий нож",
-            "name_unidentified": "мясницкий нож"
+            "name_identified": "нож",
+            "name_unidentified": "нож"
         },
         "bronze_mace": {
-            "name_identified": "летучая мышь",
-            "name_unidentified": "летучая мышь"
+            "name_identified": "бита",
+            "name_unidentified": "бита"
         },
         "bronze_axe": {
-            "name_identified": "колун",
-            "name_unidentified": "колун"
+            "name_identified": "мясницкий топорик",
+            "name_unidentified": "мясницкий топорик"
         },
         "iron_spear": {
             "name_identified": "вилы",
@@ -22,44 +22,44 @@
             "name_unidentified": "железная сабля"
         },
         "iron_mace": {
-            "name_identified": "железная булава",
-            "name_unidentified": "железная булава"
+            "name_identified": "железный молоток",
+            "name_unidentified": "железный молоток"
         },
         "iron_axe": {
-            "name_identified": "железный крюк",
-            "name_unidentified": "железный крюк"
+            "name_identified": "железный серп",
+            "name_unidentified": "железный серп"
         },
         "steel_halberd": {
             "name_identified": "стальная коса",
             "name_unidentified": "стальная коса"
         },
         "steel_axe": {
-            "name_identified": "Топор-крыло",
-            "name_unidentified": "Топор-крыло"
+            "name_identified": "крылатый-топор",
+            "name_unidentified": "крылатый-топор"
         },
         "cloak": {
-            "name_identified": "задняя часть костюма",
-            "name_unidentified": "задняя часть костюма"
+            "name_identified": "плащ",
+            "name_unidentified": "плащ"
         },
         "cloak_magicreflection": {
-            "name_identified": "ззадняя часть костюма волшебного отражения",
-            "name_unidentified": "задняя часть костюма"
+            "name_identified": "плащ волшебного отражения",
+            "name_unidentified": "плащ"
         },
         "cloak_invisibility": {
-            "name_identified": "задняя часть костюма невидимости",
-            "name_unidentified": "задняя часть костюма"
+            "name_identified": "плащ невидимости",
+            "name_unidentified": "плащ"
         },
         "cloak_protection": {
-            "name_identified": "задняя часть костюма защиты",
-            "name_unidentified": "задняя часть костюма"
+            "name_identified": "плащ защиты",
+            "name_unidentified": "плащ"
         },
         "hat_phrygian": {
-            "name_identified": "головной убор фараона",
-            "name_unidentified": "головной убор фараона"
+            "name_identified": "немес",
+            "name_unidentified": "немес"
         },
         "hat_hood": {
-            "name_identified": "голова костюма",
-            "name_unidentified": "голова костюма"
+            "name_identified": "головной убор",
+            "name_unidentified": "головной убор"
         },
 		"mask_steel_visor": {
 			"name_identified": "страшная маска",
@@ -82,8 +82,8 @@
             "name_unidentified": "шлем чародея"
         },
         "steel_helm": {
-            "name_identified": "шлем костюма",
-            "name_unidentified": "шлем костюма"
+            "name_identified": "стальной шлем",
+            "name_unidentified": "стальной шлем"
         },
         "scroll_food": {
             "name_identified": "свиток конфет",
@@ -150,8 +150,8 @@
             "name_unidentified": "кошачьи ушки"
         },
         "cloak_backpack": {
-            "name_identified": "наволочка",
-            "name_unidentified": "наволочка"
+            "name_identified": "рюкзак",
+            "name_unidentified": "рюкзак"
         },
         "spellbook_detect_food": {
             "name_identified": "книга заклинаний поиска конфет",

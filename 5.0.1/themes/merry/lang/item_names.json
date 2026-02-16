@@ -1,0 +1,81 @@
+{
+    "version": 1,
+    "items": {
+        "leather_helm": {
+            "name_identified": "эльфийский колпак",
+            "name_unidentified": "эльфийский колпак"
+        },
+        "steel_helm": {
+            "name_identified": "эфестивальная шляпа",
+            "name_unidentified": "эфестивальная шляпа"
+        },
+        "food_bread": {
+            "name_identified": "фруктовый пирог",
+            "name_unidentified": "фруктовый пирог"
+        },
+        "food_cheese": {
+            "name_identified": "карамельная трость",
+            "name_unidentified": "карамельная трость"
+        },
+        "food_apple": {
+            "name_identified": "кусочек пирога",
+            "name_unidentified": "кусочек пирога"
+        },
+        "food_meat": {
+            "name_identified": "индейка",
+            "name_unidentified": "индейка"
+        },
+        "food_fish": {
+            "name_identified": "печенье",
+            "name_unidentified": "печенье"
+        },
+        "artifact_breastpiece": {
+            "name_identified": "Письмо Деду Морозу",
+            "name_unidentified": "артефактный нагрудник"
+        },
+        "artifact_helm": {
+            "name_identified": "Шапка Деда Мороза",
+            "name_unidentified": "артефактный шлем"
+        },
+        "artifact_boots": {
+            "name_identified": "Ботинки Деда Мороза",
+            "name_unidentified": "артефактные боинки"
+        },
+        "artifact_cloak": {
+            "name_identified": "Шуба Деда Мороза",
+            "name_unidentified": "артефактный плащ"
+        },
+        "artifact_gloves": {
+            "name_identified": "Варешки Деда Мороза",
+            "name_unidentified": "артефактные перчатки"
+        },
+        "food_tomalley": {
+            "name_identified": "клюквенный соус",
+            "name_unidentified": "клюквенный соус"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "синий подарок",
+            "name_unidentified": "синий подарок"
+        },
+        "artifact_orb_red": {
+            "name_identified": "красный чулок",
+            "name_unidentified": "красный чулок"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "фиолетовый орнамент",
+            "name_unidentified": "фиолетовый орнамент"
+        },
+        "artifact_orb_green": {
+            "name_identified": "маленькое зеленое дерево",
+            "name_unidentified": "маленькое зеленое дерево"
+        },
+        "hat_fez": {
+            "name_identified": "шапка эльфа",
+            "name_unidentified": "шапка эльфа"
+        },
+        "cloak_backpack": {
+            "name_identified": "мешок подарков",
+            "name_unidentified": "мешок подарков"
+        }
+    }
+}

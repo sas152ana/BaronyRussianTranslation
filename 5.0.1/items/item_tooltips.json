@@ -212,8 +212,8 @@
 			"EFF_SEXCHANGE": "Накладывает [Смена Пола]",
 			"EFF_WATERBREATHING": "Дарует\n[Подводное Дыхание]",
 			"EFF_STRANGULATION": "Накладывает [Удушение]",
-			"EFF_QUIVER_HUNTING": "Добавляет [Охотничий] модификатор урона",
-			"EFF_QUIVER_HUNTING2": "Вызывает [Отравление/Замедление] на [3с]",
+			"EFF_QUIVER_HUNTING": "Добавляет [Охотничий ] модификатор урона",
+			"EFF_QUIVER_HUNTING2": "Вызывает [Отравление/Замедление] на  [3с]",
 			"EFF_QUIVER_SILVER": "Добавляет [Сокрушающий] модификатор урона",
 			"EFF_QUIVER_PIERCING": "+50% [Пробитие Брони]",
 			"EFF_QUIVER_SWIFT": "Дарует\n[Быстрая Перезарядка]",
@@ -229,10 +229,10 @@
 			"EFF_DISABLE_REGENERATION": "Отключает Реген. ОЗ",
 			"EFF_MP_REGENERATION": "[Реген. ОМ]",
 			"EFF_TELEPORTATION": "Накладывает [Телепортация]\nв случайное время",
-			"EFF_UNBREAKABLE": "[Неразрушимый]",
+			"EFF_UNBREAKABLE": "[Неразрушимый ]",
 			"EFF_DISARMING": "[Обезоруживает] оружие и щиты",
 			"EFF_FIRERESIST": "Дарует\n[Сопротивление Горению]",
-			"EFF_BLEED_ENERGIZE": "Дарует\n[Реген. ОМ ] при наложении\n[Кровотечение] на противников",
+			"EFF_BLEED_ENERGIZE": "Дарует\n[Реген. ОМ] при наложении\n[Кровотечение] на противников",
 			"EFF_COLDRESIST": "[Сопротивление Холоду]",
 			"EFF_PWR": "Мощь Заклинаний",
 			"EFF_PWR_DMG": "доп. Мощь Заклинаний\nу [Атакующих Заклинаний]\n",
@@ -314,7 +314,7 @@
 		"template_armor_base_ac": [ "%+d базового ПБ от предмета" ],
 		"template_armor_beatitude_ac": [ "%+d ПБ от %s" ],
 		"template_armor_shield_bonus": [ "+%d пассивного ПБ от способности %s", "+%d защитного ПБ от способности %s" ],
-		"template_tool_shield_bonus": [ "+%d защитного ПБ от способности %s" ],
+		"template_tool_shield_bonus": [ "+%d защитного ПБ %s от способности" ],
 		"template_armor_shield_resistance_bonus": [ "* Дополнительно +30% [Сопротивление Магии] \n при защите" ],
 		"template_shield_description": [ "Дарует дополнительный ПБ при защите." ],
 		"template_mirror_shield_description": [ "Хрупкий щит, который отражает все магические снаряды при защите." ],
@@ -322,7 +322,7 @@
 		"template_torch_description": [ "При удержании в руках, сгорает со временем. Обеспечивает дополнительный ПБ и свет при защите." ],
 		"template_shard_description": [ "Хрупкий источник света, который горит вечно. Обеспечивает дополнительный ПБ и свет при защите." ],
 		"template_shield_brittle": [ "+100% шанс испортиться при получении удара во время защиты" ],
-		"template_weapon_description": [ "Зажмите [Атаковать ] чтобы совершить критическую атаку." ],
+		"template_weapon_description": [ "Зажмите [Атаковать] чтобы совершить критическую атаку." ],
 		"template_whip_description": [ "Длинное оружие ближнего боя. Зажмите [Атаковать] чтобы совершить критическую атаку." ],
 		"template_knuckles_description": [ "Дает доп. АТК когда Основная Рука пуста." ],
 		"template_thrown_description": [ "Метательное оружие. Зажмите [Атаковать] чтобы увеличить урон и дальность." ],
@@ -378,11 +378,11 @@
 		"template_weapon_polearm_effects": [ "+10% минимального урона оружия" ],
 		"template_weapon_legendary_polearm_effects": [ "* Удары всегда наносят максимальный урон" ],
 		"template_weapon_skill_modifier": [ "%+d%% эффективности от способности %s" ],
-		"template_weapon_skill_modifier_range": [  "* (%d%% - %d%%) разброс урона от", "%s навыка"  ],
+		"template_weapon_skill_modifier_range": [ "* (%d%% - %d%%) разброс урона от", "%s навыка" ],
 		"template_when_equipped_text": [ "\nКогда экипировано:" ],
 		"template_when_equipped_text_no_leading_newline": [ "Когда экипировано:" ],
 		"template_player_atk_stat_str": [ "%+d%% АТК от х-ки СИЛ" ],
-		"template_player_atk_stat_scepter": [  "%+d%% АТК от 50%% СИЛ"  ],
+		"template_player_atk_stat_scepter": [ "%+d%% АТК от 50%% СИЛ" ],
 		"template_player_atk_stat_whip": [ "%+d%% АТК от х-к 50%% СИЛ + ЛОВ" ],
 		"template_knuckles_base_ac": [ "%+d базовых ПБ / АТК от предмета" ],
 		"template_knuckles_beatitude_ac": [ "%+d ПБ / АТК от %s" ],
@@ -467,7 +467,7 @@
 		"template_armor_resist_icon": [ "сопротивление:\n[%s] урону\n"],
 		"template_equipment_effect_feather": [ "%+d базового веса предмета от %s" ],
 		"template_equipment_effect_waterwalking": [ "* Носитель парит над водой и лавой от [Хождения По Воде]" ],
-		"template_equipment_effect_poisonresist": [  "* Лечит статус эффект [Отравление]", "* 12.5% шанс износа при лечении", "+60% [Magic Resist] против\nзаклинаний Яд / Кислота" ],
+		"template_equipment_effect_poisonresist": [ "* Лечит статус эффект [Отравление]", "* 12.5% шанс износа при лечении", "+60% [Маг. сопр] против\nзаклинаний Яд / Кислота" ],
 		"template_equipment_effect_burningresist": [ "* Снимает [Горение]", "* 12.5% шанс износа при снятие" ],
 		"template_equipment_effect_magicreflect": [ "* Отражает магические заклинания при попадании", "* 50% шанс порчи при отражении" ],
 		"template_equipment_effect_waterbreathing": [ "* 100% скорости передвижения в воде или\n лаве" ],
@@ -495,8 +495,8 @@
 		"template_spellbook_cast_bonus": [ "", "Бонус Колдовства с Книги:", "%+d%% %s от х-ки %s", "%+d%% %s от %s" ],
 		"template_spellbook_cast_success": [ "%+d%% успешного использования когда не выучено" ],
 		"template_spellbook_extramana_chance": [ "%+d%% эффективность затрат маны" ],
-		"template_spellbook_magic_requirement": [ "Требования для выучивания: %d (%s)" ],
-		"template_spellbook_magic_current": [ "Текущий уровень способн. Магия + х-ка ИНТ: %d (%s)" ],
+		"template_spellbook_magic_requirement": [ "Требования для выучивания: %d" ],
+		"template_spellbook_magic_current": [ "Текущий уровень способн. Магия + х-ка ИНТ: %d" ],
 		"template_spellbook_icon_damage_bonus": [ "Эффект Колдовства с Книги:", "%+d%% Магический Урон" ],
 		"template_spellbook_icon_duration_bonus": [ "Эффект Колдовства с Книги:", "%+d%% Длительность эффекта" ],
 		"template_spellbook_icon_pwr_bonus": [ "Эффект Колдовства с Книги:", "%+d%% МОЩ эффекта" ],
@@ -508,7 +508,7 @@
 		"template_icon_spell_fireball": [ "\n%+d Магический Урон\nНакладывает [Горение]" ],
 		"template_icon_spell_light": [ "Призывает [Свет]", "следующий за заклинателем" ],
 		"template_icon_spell_removecurse": [ "Снимает [Проклятие]" ],
-		"template_icon_spell_lightning": [ "%+d Магический Урон", "Наложит +1 [Статики]" ],
+		"template_icon_spell_lightning": [ "%+d Магический Урон", "Inflicts +1 [Static]" ],
 		"template_icon_spell_identify": [ "[Опознает] предмет" ],
 		"template_icon_spell_magicmapping": [ "[Открывает] текущий", "уровень подземелья" ],
 		"template_icon_spell_sleep": [ "Накладывает [Сон]" ],
@@ -544,7 +544,7 @@
 		"template_icon_spell_fear": [ "Накладывает [Страх] на ближайших", "противников" ],
 		"template_icon_spell_strike": [ "Заряжает мощный ближний\nудар, наносящий +400%% АТК" ],
 		"template_icon_spell_detect_food": [ "Показывает местоположение пищи", "на текущем этаже подземелья" ],
-		"template_icon_spell_weakness": ["Накладывает [Слабость]", "%-d%% [Сила атаки]"],
+		"template_icon_spell_weakness": ["Накладывает [Слабость]", "%-d%% [Attack Power]"],
 		"template_desc_spell_weakness": [ "Используйте [Колдовать], пока предмет в руках, чтобы выпустить [Снаряд]." ],
 		"template_icon_spell_amplify_magic": [ "Усиливает [Огненный Шар] [Холод]", "[Молнию] [Магический Снаряд]" ],
 		"template_icon_spell_shadow_tag": [ "Накладывает [Обнуление] и", "показывает местоположение цели" ],
@@ -896,7 +896,7 @@
 		"template_spell_cost": [ "Стоимость: %d ОМ" ],
 		"template_spell_cost_gold": [ "Стоимость: %d ОМ %d Золото" ],
 		"template_spell_cost_dominate": [ "Стоимость: %d + ?? ОМ" ],
-		"template_spell_cost_demon_illusion": [ "Стоимость: %d ОМ", "10%% Макс. ОЗ" ],
+		"template_spell_cost_demon_illusion": [ "Стоимость: %d ОМ", "10%% Макс. ОЗ " ],
 		"template_spell_cost_sustained": [ "Стоимость: %d ОМ", "(1 ОМ/%1.2fs)" ],
 		"template_spell_damage_bonus": [ "Бонусы заклинания %s:", "%+d базовый магический %s", "%+.f%% %s от х-ки %s", "%+.f%% %s от экипировки" ],
 		"template_spell_damage_bonus_pwr": [ "Бонусы заклинания %s:", "%+d базовый магический %s", "%+.f%% к %s от МОЩ" ],
@@ -909,12 +909,12 @@
 		"template_spell_cast_success2": [ "^* %d%% шанс провала колдовства" ],
 		"template_spell_extramana_chance": [ "^* %d%% шанс потребить", "^дополнительные ОМ " ],
 		"template_spell_no_gain_levels": [ "Уровень заклинаний:", "* Дальнейший рост", "навыка невозможен" ],
-		"template_attr_spell_shadow_tag": [ "Атрибуты:", "* Типы Урона (Дальний, Топоры и т.д.) на Обнуленных целях всегда наносят 100% урона", "-50% стоимость ОМ заклинаний Телепортации пока активно", "", "* Сотворение [Телепортации] переносит заклинателя к помеченной цели", "* Сотворение [Телепортации других] переносят помеченную цель прямо к вам" ],
+		"template_attr_spell_shadow_tag": [ "Атрибуты:", "* Типы Урона (Дальний, Топоры и т.д.) на Обнуленных целях всегда наносят 100% урона", "-50% стоимость ОМ заклинаний Телепортации пока активно", "", "* Casting [Teleportation] moves caster to marked target", "* Casting [Teleport Other] moves marked target in front of caster" ],
 		"template_attr_spell_summon": [ "Атрибуты:", "* Уровни призванных союзников сохраняются между использованиями, улучшая снаряжение каждые 5 уровней (Макс. при УРОВ 30)", "* Стоимость ОМ увеличивается с рангом призванного", "* Экспертная способность Магия (60) + х-ка ИНТ создает дополнительного призванного", "", "Команды последователей:", "* [Relinquish Soul] destroys summons and returns MP based on current HP" ],
 		"template_attr_spell_self_polymorph": [ "Атрибуты:", "* Эффект [Полиморфирован] пропадает при прикосновении к воде или ее потреблении" ],
 		"template_attr_spell_acid_spray": [ "Атрибуты:", "+25% базовый шанс порчи брони при попадании", "" ],
 		"template_attr_spell_charm": [ "Модификаторы Очарования:", "+30%% шанс на монстров в [Смятении] или [Пьяных]", "%+d%% шанс от х-ки ИНТ", "%+d%% шанс от х-ки ХАР + способности Лидерство" ],
-		"template_attr_spell_dominate": [ "Атрибуты:", "* Подчинение монстров позволяет превысить лимит спутников навыка Лидерства", "", "Расход ОМ на Подчинение:", "* Ослабление монстра снижает расход ОМ на Подчинение (напр., монстр с 20 текущими ОЗ стоит 41 МП)", "" ],
+		"template_attr_spell_dominate": [ "Атрибуты:", "* Dominating monsters allows exceeding the Leadership skill ally limit", "", "Dominate MP Cost:", "* Weakened monsters reduce MP cost to Dominate (e.g. Monster with 20 current HP costs 41 MP)", "" ],
 		"template_attr_spell_revert_form": [ "Атрибуты:", "* Снимает только 1 эффект за раз" ],
 		"template_attr_spell_blood_waves": [ "Атрибуты:", "* +1 маг. урону за +4 ИНТ", "" ],
 		"template_attr_spell_magicians_armor": [ "Атрибуты:", "* +1 макс. заряд за каждые +20 к\nИНТ + Колдовство навыка" ],
@@ -1313,7 +1313,7 @@
 					"conditional_attribute": "magicstaff_poison"
 				}
 			],
-			"description": [ "Нажмите [Атака ] когда экипировано\nчтобы сколдовать содержащееся заклинание." ],
+			"description": [ "Нажмите [Атака] когда экипировано\nчтобы сколдовать содержащееся заклинание." ],
 			"details": [
 				{
 					"default": [ "" ]
@@ -1493,7 +1493,7 @@
 					"conditional_attribute": "scroll_teleportation"
 				},
 				{
-					"text": "[Призывает ] случайное\nколичество монстров",
+					"text": "[Призывает] случайное\nколичество монстров",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "scroll_summon"
 				},
@@ -1511,8 +1511,8 @@
 					"text": "Подписанный:\n%s",
 					"icon_path": "images/system/int64.png",
 					"conditional_attribute": "SCROLL_LABEL"
-			}
-			 ],
+				}
+			],
 			"description": [ "Накладывает магические эффекты при прочтении. Исчезает при использовании." ],
 			"details": [
 				{
@@ -2426,7 +2426,7 @@
 					"conditional_attribute": "EFF_PARALYZE"
 				},
 				{
-					"text": "Накладывает [Кровотечение ]\nДлительность: [%ds]",
+					"text": "Накладывает [Кровотечение]\nДлительность: [%ds]",
 					"icon_path": "images/ui/HUD/statusfx/bleed.png",
 					"conditional_attribute": "EFF_BLEEDING"
 				}
@@ -2613,7 +2613,7 @@
 				{
 					"duck_info": [ 
 						"* Преследует врагов, отвлекая их кряканьем", 
-						"* Возвращается после недолгих", 
+						"* Возвращается после недолгих",
 						"странствий по округе",
 						"",
 						"Сведения:",
@@ -3292,7 +3292,7 @@
 					"conditional_attribute": "EFF_ARTIFACT_BOW"
 				}
 			],
-			"description": [ "Эффекты усиливаются со способностью Дальнее.", "Дальнее оружие средней дистанции.", "Зажмите [Атаковать ] для непрерывной стрельбы." ],
+			"description": [ "Эффекты усиливаются со способностью Дальнее.", "Дальнее оружие средней дистанции.", "Зажмите [Атаковать] для непрерывной стрельбы." ],
 			"details": [
 				{
 					"default": [ "" ]
@@ -4715,7 +4715,7 @@
 					"equipment_stat_bonus": "template_armor_stat_bonus"
 				},
 				{
-					"EFF_BLEED_ENERGIZE": [ "+5с [Реген. ОМ ] при наложении [Кровотечение]" ]
+					"EFF_BLEED_ENERGIZE": [ "+5с [Реген. ОМ] при наложении [Кровотечение]" ]
 				},
 				{
 					"equipment_fragile_durability": "template_armor_fragile_durability"
@@ -6475,7 +6475,7 @@
 					"icon_path": "items/images/spells/healing.png"
 				},
 				{
-					"text": "Дает [Опьянение]\nДлительность: [%d-%dс]",
+					"text": "Дает [Опьянение]\nДлительность: [%d-%ds]",
 					"icon_path": "#*images/ui/HUD/statusfx/drunk.png"
 				}
 			],
@@ -6581,7 +6581,7 @@
 		"tooltip_potion_confusion": {
 			"icons": [
 				{
-					"text": "Дает [Смятение]\nДлительность: [%dс]",
+					"text": "Дает [Смятение]\nДлительность: [%ds]",
 					"icon_path": "items/images/spells/confuse.png"
 				}
 			],
@@ -6718,7 +6718,7 @@
 		"tooltip_potion_blindness": {
 			"icons": [
 				{
-					"text": "Дает [Слепоту]\nДлительность: [%d-%dс]",
+					"text": "Дает [Слепоту]\nДлительность: [%d-%ds]",
 					"icon_path": "images/ui/HUD/statusfx/blind.png"
 				}
 			],
@@ -6785,7 +6785,7 @@
 		"tooltip_potion_invisibility": {
 			"icons": [
 				{
-					"text": "Дает [Невидимость]\nДлительность: [%d-%dс]",
+					"text": "Дает [Невидимость]\nДлительность: [%d-%ds]",
 					"icon_path": "items/images/spells/invisible.png"
 				}
 			],
@@ -6817,7 +6817,7 @@
 		"tooltip_potion_levitation": {
 			"icons": [
 				{
-					"text": "Дает [Левитацию]\nДлительность: [%d-%dс]",
+					"text": "Дает [Левитацию]\nДлительность: [%d-%ds]",
 					"icon_path": "items/images/spells/levitation.png"
 				}
 			],
@@ -6849,7 +6849,7 @@
 		"tooltip_potion_speed": {
 			"icons": [
 				{
-					"text": "Дает [Скорость]\nДлительность: [%dс]",
+					"text": "Дает [Скорость]\nДлительность: [%ds]",
 					"icon_path": "items/images/spells/speed.png"
 				}
 			],
@@ -6913,7 +6913,7 @@
 		"tooltip_potion_paralysis": {
 			"icons": [
 				{
-					"text": "Наносит [Паралич]\nДлительность: [%d-%dс]",
+					"text": "Наносит [Паралич]\nДлительность: [%d-%ds]",
 					"icon_path": "images/ui/HUD/statusfx/paralyze.png"
 				}
 			],
@@ -7088,7 +7088,7 @@
 		"tooltip_potion_strength": {
 			"icons": [
 				{
-					"text": "Дает [Силу] и [Толкание]\nДлительность: [%dс]",
+					"text": "Дает [Силу] и [Толкание]\nДлительность: [%ds]",
 					"icon_path": "images/ui/HUD/statusfx/strengthbuff.png"
 				}
 			],
@@ -7220,7 +7220,7 @@
 		"tooltip_armor_mask_plague": {
 			"icons": [
 				{
-					"text": "%+d к %s",
+					"text": "%+d %s",
 					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
 					"conditional_attribute": "AC"
 				},
@@ -7256,7 +7256,7 @@
 		"tooltip_armor_hat2": {
 			"icons": [
 				{
-					"text": "%+d к %s",
+					"text": "%+d %s",
 					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
 					"conditional_attribute": "AC"
 				},

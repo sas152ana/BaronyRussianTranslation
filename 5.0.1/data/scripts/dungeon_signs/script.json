@@ -1,0 +1,779 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 29,
+			"g": 16,
+			"b": 11,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 255,
+			"g": 0,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+		"humanoid_skull": {
+			"message": [
+				"Вы видите человекоподобный череп."
+			]
+		},
+		"pit_spikes": {
+			"message": [
+				"Вы видите смертоносные шипы на дне ямы."
+			]
+		},
+		"bastille_exit": {
+			"sign": [
+				"Уходи, или останься здесь",
+				"ещё одной заблудшей душой."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_exit": {
+			"sign": [
+				"УВЕДОМЛЕНИЕ:",
+				"Работы в этих",
+				"вратах более не",
+				"целесообразны и",
+				"были прекращены.",
+				"Немедленно вернитесь в Цитадель",
+				"чтобы возобновить службу.",
+				"-Е"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_autos": {
+			"sign": [
+				"ПРЕДУПРЕЖДЕНИЕ:",
+				"Местным автоматонам вменено",
+				"пресекать любое",
+				"вмешательство в работу врат.",
+				"Нарушители будут убиты.",
+				"Да, Шерман, это",
+				"касается каждого.",
+				"-Е"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_hint": {
+			"sign": [
+				"УВЕДОМЛЕНИЕ:",
+				"Доколе ключ от врат",
+				"не будет выкован, стража",
+				"Цитадели отныне",
+				"снята навечно.",
+				"Все строения намеренно",
+				"уступаются силам врага.",
+				"НЕ РАСТОЧАЙТЕ РЕСУРСЫ.",
+				"-Е"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_hint2": {
+			"sign": [
+				"Отход за Первые Врата",
+				"должен быть утвержден",
+				"обоими дежурными офицерами."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_hint3": {
+			"sign": [
+				"Дражайший Орфей,",
+				"Они не поддадутся.",
+				"Ни ради тебя, ни ради кого-то ещё.",
+				"Возвращайся домой."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},				
+		"bastille_hint": {
+			"sign": [
+				"Не познать того, что ждёт",
+				"в конце пути тому,",
+				"кто лишён упорства.",
+				"Но помни: не всякая тропа",
+				"сулит успех.",
+				"",
+				"Дерзай с умыслом,",
+				"иначе обратишься в ничто."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},			
+		"bastille_gold": {
+			"sign": [
+				"Яви верность свою.",
+				"Взыщи дивные дары",
+				"и возложи их здесь."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},			
+		"bastille_silver_a": {
+			"sign": [
+				"Пройди сие испытание",
+				"и стань достойным",
+				"встретить следующее."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		},
+		"bastille_silver_b": {
+			"sign": [
+				"Открой путь к ещё",
+				"более ценным сокровищам."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		},
+		"bastille_finale": {
+			"sign": [
+				"Пробуди механизмы на",
+				"севере, западе и востоке,",
+				"и предстань пред духами,",
+				"что оплакивают свои",
+				"неудачи."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		},				
+		"dont_pull": {
+			"sign": [
+				"Не тянуть."
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"curses": {
+			"sign": [
+				"Проклятие на каждого,",
+				"кто осмелится войти."
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"security": {
+			"sign": [
+				"ВНИМАНИЕ:",
+				"Защита активирована.",
+				"-М"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"literacy_a": {
+			"sign": [
+				"Будь сведущ в грамоте,",
+				"прежде чем войти."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"literacy_b": {
+			"sign": [
+				"Лишь грамотным здесь",
+				"рады."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_exit": {
+			"sign": [
+				"Беги, смертный, обратно",
+				"в свой бренный мир.",
+				"Бессмертным душам нет",
+				"исхода отсюда."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_latin_a": {
+			"sign": [
+				"Accipere dignemini, non",
+				"quod fuerit obtulit",
+				"ad dominum, aut",
+				"faciem eius ira."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_latin_b": {
+			"sign": [
+				"Perserverantia solverit,",
+				"sed avaritia est",
+				"fur in obtentum."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_latin_c": {
+			"sign": [
+				"Quondam vos obtinere",
+				"nomnia, nisi morte parata."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"hell_latin_a": {
+			"sign": [
+				"Oportet te esse probatum",
+				"et tunc vos may transire."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"hell_latin_b": {
+			"sign": [
+				"Avaritiam tuo sumptu."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"fraternity_hint": {
+			"sign": [
+				"Мои попытки унизить",
+				"демонические братства",
+				"провалились. Используй мой ключ,",
+				"дабы продолжить мой труд.",
+				"Они должны быть усмирены.",
+				" ",
+				"-Б"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_pzr": {
+			"sign": [
+				"$ $ $ ",
+				" ",
+				"Phrenes",
+				"Zymon",
+				"Rheontes"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_phi.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_zeta.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_rho.png",
+					"sizex": 32,
+					"sizey": 32
+				}				
+			]
+		},
+		"frat_pzr_grog": {
+			"sign": [
+				"Склад грога Балрога.",
+				"Новичкам вход воспрещён.",
+				" ",
+				"ТОЛЬКО ДЛЯ ОФИЦЕРОВ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_pzr_basileus": {
+			"sign": [
+				"Варево Базилевса",
+				" ",
+				"РУКАМИ НЕ ТРОГАТЬ"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},		
+		"frat_sky": {
+			"sign": [
+				"$ $ $ ",
+				" ",
+				"Sthenos",
+				"Kratesis",
+				"Ypistos"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_sigma.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_kappa.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_upsilon.png",
+					"sizex": 32,
+					"sizey": 32
+				}				
+			]			
+		},
+		"frat_sky_trophy": {
+			"sign": [
+				"Зал трофеев",
+				" ",
+				"Для осмотра найдите",
+				"офицера сопровождения."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_txo": {
+			"sign": [
+				"$ $ $ ",
+				" ",
+				"Торибос",
+				"Ксенос",
+				"Омилос"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_theta.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_chi.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/dungeon_signs/sign_omicron.png",
+					"sizex": 32,
+					"sizey": 32
+				}				
+			]			
+		},
+		"frat_txo_damien": {
+			"sign": [
+				"КОМНАТА ДЭМИЕНА (ТАЛИСМАНА)",
+				" ",
+				"Если оставить дверь открытой,",
+				"он может свалить и тогда",
+				"будут траблы!!",
+				"А так -можешь с ним",
+				"поиграть, он классный."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_presidents": {
+			"sign": [
+				"Главам Братств:",
+				" ",
+				"Сдавайте ключи своих домов,",
+				"только если готовы бороться",
+				"за власть в этих стенах.",
+				" ",
+				"-Дж"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_exit": {
+			"sign": [
+				"Портал назад в",
+				"Латинский Квартал"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_exit": {
+			"sign": [
+				"ДО ДАЛЬНЕЙШИХ УКАЗАНИЙ:",
+				" ",
+				"Автоматонам запрещено",
+				"покидать завод без",
+				"приказа руководства.",
+				"Нарушители подлежат",
+				"немедленной переработке.",
+				" ",
+				"-О"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_qa": {
+			"sign": [
+				"ЗОНА ПРОВЕРКИ КАЧЕСТВА",
+				" ",
+				"ДОСТУП ТОЛЬКО ДЛЯ",
+				"ПЕРСОНАЛА"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_floor": {
+			"sign": [
+				"СБОРОЧНЫЙ ЦЕХ",
+				"НЕДОСТУПЕН, ПОКА",
+				"ПРОИЗВОДСТВЕННЫЙ ЦЕХ",
+				"НАХОДИТСЯ В РАБОТЕ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},		
+		"automat_failsafe": {
+			"sign": [
+				"АВАРИЙНЫЙ ВЫКЛЮЧАТЕЛЬ",
+				"ПРЕДОХРАНИТЕЛЬ",
+				" ",
+				"НЕ ИСПОЛЬЗОВАТЬ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_override": {
+			"sign": [
+				"ТРЕБУЕТСЯ ДВОЙНОЙ ОБХОД",
+				" ",
+				"ПРОИЗВОДСТВО БУДЕТ",
+				"НЕМЕДЛЕННО ОСТАНОВЛЕНО"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},				
+		"mines_fountain": {
+			"sign": [
+				"Вон тот фонтан вдали,",
+				"Поток его не спит.",
+				"Снарядом точным окропи —",
+				"И дар тебя благословит."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"mines_chest": {
+			"sign": [
+				"Вон тот сундук вдали,",
+				"Секрет его сокрыт.",
+				"Коль вещь к нему метнёшь —",
+				"Узнаешь, что внутри лежит."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},		
+		"mines_secret": {
+			"sign": [
+				"Посторонним вход воспрещён"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		}
+	}
+}

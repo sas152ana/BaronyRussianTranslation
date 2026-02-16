@@ -1,0 +1,958 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial4a": {
+            "sign": [
+                "$",
+                "Свитки Опознания могут",
+                "дать уверенность, когда",
+                "у вас нет времени",
+                "ждать."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+                    [],
+                    [0,1],
+                    [],
+                    [0]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_scroll.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4b": {
+            "sign": [
+                "Выбрасывайте предметы,",
+                "которые вам не нужны,",
+                "так как они утяжеляют",
+                "вас.",
+                "",
+                "Медленное движение",
+                "может привести к смерти."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+					[3],
+					[],
+					[],
+					[],
+					[3]
+                ],
+                "word_highlights2": [
+                    [1],
+					[1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial4/dump_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial4b_gamepad": {
+            "sign": [
+                "Выбрасывайте предметы,",
+                "которые вам не нужны,",
+                "так как они утяжеляют",
+                "вас.",
+                "",
+                "Медленное движение",
+                "может привести к смерти."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+					[3],
+					[],
+					[],
+					[],
+					[3]
+                ],
+                "word_highlights2": [
+                    [1],
+					[1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial4/dump_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial4c": {
+            "sign": [
+                "Вы не можете атаковать,",
+                "блокировать, колдовать",
+                "или красться, пока",
+                "плывете, но можете",
+                "взаимодействовать с",
+                "объектами!",
+                "",
+                "$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [3],
+                    [0,1],
+                    [1],
+                    [0],
+					[0]
+                ],
+                "word_highlights2": [
+                    [1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Swimming02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4do": {
+            "sign": [
+                "Если Левитация спадет",
+                "над ямой, вы точно",
+                "погибнете.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+					[],
+					[0]
+                ],
+                "word_highlights2": [
+                    [1],
+					[2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4d": {
+            "sign": [
+                "У вас не всегда будет",
+                "время для раздумий,",
+                "сталкиваясь с",
+                "испытаниями в",
+                "подземелье.",
+                "",
+                "Неполные решения могут",
+                "быть необходимы для",
+                "выживания.",
+                "Теперь вас проверят."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+                    [1],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial4e": {
+            "sign": [
+                "Поиск еды важен для",
+                "выживания.",
+                "",
+                "$",
+                "Если вы медлите, то",
+                "умрете от голода."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "word_highlights2": [
+                    [1],
+					[],
+					[],
+					[],
+					[1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/HUD_Hunger_01D.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4f": {
+            "sign": [
+                "Один из этих амулетов",
+                "заколдован смертельным",
+                "проклятием.",
+                "",
+                "Оценка поможет",
+                "узнать, какой именно."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [0]
+                ],
+                "word_highlights2": [
+					[3],
+					[],
+					[],
+					[],
+					[0]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial4g": {
+            "sign": [
+                "Большинство предметов",
+                "в подземелье",
+                "неопознаны.",
+                "$",
+                "Если навык Оценки",
+                "низкий, вы можете",
+                "не справиться."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 64,
+                    "a": 255
+                },
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+					[0]
+                ],
+                "word_highlights2": [
+                    [1],
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_bread.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4h": {
+            "sign": [
+                "Иногда проклятые",
+                "предметы лучше, чем",
+                "ничего. Используйте их",
+                "в случае необходимости.",
+                "",
+                "Некоторые проклятия",
+                "накладывают штрафы",
+                "или наоборот, меняют",
+                "эффекты предметов.",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [1],
+                    [],
+                    [],
+					[],
+					[],
+					[1],
+					[1],
+					[],
+					[],
+					[]
+                ],
+                "word_highlights2": [
+                    [],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1],
+					[]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_reverse.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4ha": {
+            "sign": [
+                "Проклятое снаряжение",
+                "нельзя снять после",
+                "надевания.",
+                "$",
+                "Это может привести",
+                "к катастрофе в",
+                "зависимости от предмета."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+					[0,1],
+					[],
+					[]
+                ],
+                "word_highlights2": [
+					[1],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_curse.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4hi": {
+            "sign": [
+                "Определите порядок",
+                "предметов для Оценки,",
+                "нажав$.",
+                "$",
+                "Нажмите$ на",
+                "опознанные предметы,",
+                "чтобы увидеть их",
+                "детальное описание."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+					[],
+					[0],
+					[],
+					[0],
+					[],
+					[1],
+					[]
+                ],
+                "word_highlights2": [
+                    [],
+					[0,2],
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Expand Inventory Tooltip"
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_appraise.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Expand Inventory Tooltip"
+                }
+            ]
+        },
+        "tutorial4i": {
+            "sign": [
+                "Оценка и решение,",
+                "использовать ли предметы,",
+                "могут решить исход",
+                "между жизнью и смертью",
+                "в подземельях.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[0],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[0],
+					[2]
+				]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/SkillSheet/Icons/Appraisal02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4j": {
+            "sign": [
+                "Терпение может стать",
+                "причиной вашей смерти.",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[0],
+					[],
+					[1]
+				]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_potion.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4k": {
+            "sign": [
+                "Этот предмет — это",
+                "Проклятый Амулет",
+                "Магического Отражения.",
+                "",
+                "Этот эффект работает",
+                "даже если предмет",
+                "проклят.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0]
+                ],
+                "word_highlights2": [
+                    [1],
+                    [],
+					[0,1],
+					[],
+					[1,2],
+					[],
+					[]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial4/magicreflect.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#items/images/spells/reflect_magic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4ks": {
+            "sign": [
+                "Благословения могут",
+                "усиливать эффекты",
+                "некоторых предметов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0]
+				],
+                "word_highlights2": [
+                    [0],
+					[1],
+					[1]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial4l": {
+            "sign": [
+                "Еда плохого качества",
+                "может вызвать болезнь.",
+                "$",
+                "Ваша отчаянность должна",
+                "решить, стоит ли риск."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [1],
+					[2],
+					[],
+					[],
+					[3]
+                ],
+                "word_highlights2": [
+					[0],
+					[],
+					[],
+					[0],
+					[]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_pie.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial4m": {
+            "sign": [
+                "Еда может показаться",
+                "слишком редкой вначале.",
+                "",
+                "Будьте настойчивы и",
+                "развивайтесь как",
+                "искатель приключений."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[],
+					[],
+					[1],
+					[0],
+					[]
+				],
+                "word_highlights2": [
+					[0],
+					[1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial4n": {
+            "sign": [
+                "$$$",
+                "Полотенца можно",
+                "использовать, чтобы",
+                "очиститься или как",
+                "повязки для остановки",
+                "кровотечения.",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+					[0],
+					[0],
+					[2]
+					
+                ],
+                "word_highlights2": [
+                    [],
+                    [0]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/messypie.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/grease.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/bleed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_towel.png",
+                    "sizex": 80,
+                    "sizey": 80
+                }
+            ]
+        },
+        "tutorial4o": {
+            "sign": [
+                "Испорченная еда может",
+                "вызвать болезнь,",
+                "ускоряя голод.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+					[1],
+					[1]
+                ],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial4/sign_meat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        }
+    }
+}

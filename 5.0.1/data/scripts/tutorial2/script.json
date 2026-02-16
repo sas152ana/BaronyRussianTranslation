@@ -1,0 +1,858 @@
+{
+    "version": 1,
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
+    "script_entries": {
+        "tutorial2a": {
+            "sign": [
+                "Используя комбинацию",
+                "луков, боеприпасов и метательных",
+                "оружий, авантюристы",
+                "могут держаться на расстоянии",
+                "от наиболее опасных",
+                "угроз в подземелье."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [],
+                    [],
+                    [1]
+                ],
+				"word_highlights2": [
+                    [],
+                    [0,1],
+                    [0,1],
+                    []
+                ]
+            },
+            "variables": []
+        },
+        "tutorial2b": {
+            "sign": [
+                "Охотничьи боеприпасы",
+                "$",
+                "Отравляет и замедляет врагов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,1],
+                    [],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/hunting.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_hunting.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial2c": {
+            "sign": [
+                "Боеприпасы Скорости",
+                "$",
+                "Стреляет быстрее, но наносит",
+                "чуть меньше урона."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,1],
+                    [],
+                    [],
+                    [1,2]
+                ],
+                "word_highlights2": [
+                    [],
+                    [],
+                    [],
+                    [1,2]
+				],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/swift.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_swift.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        },
+        "tutorial2d": {
+            "sign": [
+                "Боеприпасы пружинненых",
+                "$",
+                "Отбрасывает врагов."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,1],
+                    [],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/springshot.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_springshot.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        },
+        "tutorial2e": {
+            "sign": [
+                "Ваша способность сражаться",
+                "на расстоянии будет",
+                "тестироваться.",
+                "",
+                "Убедитесь, что вы готовы."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[],
+					[0]
+				],
+				"word_highlights2": [
+					[0],
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial2f": {
+            "sign": [
+                "Чтобы держаться на",
+                "расстоянии от врагов,",
+                "возможно, вам придется",
+				"развернуться и убежать."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [1],
+                    [],
+                    [],
+					[0,2]
+                ],
+				"word_highlights2": [
+                    [],
+                    [2],
+                    [1],
+					[]
+                ]
+            },
+            "variables": []
+        },
+        "tutorial2f_gamepad": {
+            "sign": [
+                "Чтобы держаться на",
+                "расстоянии от врагов,",
+                "возможно, вам придется",
+				        "развернуться и убежать.",
+                "",
+                "Нажмите$, чтобы",
+                "быстро развернуться."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [0],
+					[],
+                    [0,2],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/backpedal.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Quick Turn"
+                }
+            ]
+        },
+        "tutorial2g": {
+            "sign": [
+                "Движение вперед быстрее",
+                "чем отступление или",
+                "передвижение боком."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0],
+                    [],
+					[0]
+                ],
+				"word_highlights2": [
+                    [],
+                    [],
+					[1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/backpedal.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": []
+        },
+        "tutorial2h": {
+            "sign": [
+                "$",
+                "Сильным броском",
+                "чакрамы отскакивают от стен.",
+                "Напольные ловушки за этими",
+                "воротами откроют проход."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [1],
+                    [],
+                    [1]
+                ],
+				"word_highlights2": [
+                    [],
+                    [],
+                    [0],
+                    [1],
+                    [0]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_chakram.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial2i": {
+            "sign": [
+                "Некоторые предметы можно ",
+                "использовать как метательное",
+				"оружие.",
+                "$",
+                "Используйте их для атаки",
+                "врагов или активации",
+				"напольных ловушек."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [0],
+                    [],
+                    [],
+                    [0,3],
+					[2],
+					[]
+                ],
+				"word_highlights2": [
+                    [1],
+                    [],
+                    [0],
+                    [],
+                    [],
+					[],
+					[1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/rockthrow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_rock.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial2j": {
+            "sign": [
+                "$",
+                "Колчаны боеприпасов",
+                "улучшают ваши",
+                "атаки из лука.",
+                "",
+                "Надевайте разные",
+				"колчаны, чтобы",
+                "получить разные эффекты."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [0],
+					[],
+                    [0],
+                    []
+                ],
+				"word_highlights2": [
+                    [],
+                    [],
+                    [0],
+                    [2],
+                    [],
+					[],
+                    [0],
+                    [2]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_quiver.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial2k": {
+            "sign": [
+                "Дальность полета стрелы",
+                "зависит от используемого",
+                "лука.",
+                "$",
+                "Длинный лук стреляет далеко,",
+                "но это медленное оружие."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [2,3]
+                ],
+                "word_highlights2": [
+                    [2],
+                    [],
+                    [0],
+                    [],
+                    [1]
+                ]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_longbow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial2l": {
+            "sign": [
+                "Падение в лаву - это",
+                "быстрый путь к смерти.",
+                "",
+                "$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+				"word_highlights2": [
+					[1],
+					[1]
+				]
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#images/ui/HUD/statusfx/burning.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
+        "tutorial2m": {
+            "sign": [
+                "$",
+                "Возьмите короткий лук и",
+                "покажите свою меткость.",
+                "Удерживайте$, чтобы стрелять."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": -4,
+                "word_highlights": [
+                    [],
+                    [0],
+                    [0],
+                    [0,2]
+                ],
+				"word_highlights2": [
+                    [],
+                    [2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/bows.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_shortbow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                }
+            ]
+        },
+        "tutorial2n": {
+            "sign": [
+                "Боеприпасы нельзя",
+                "восстановить после выстрела.",
+                "",
+                "Метательное оружие",
+                "можно собрать и",
+                "использовать снова."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0],
+					[],
+					[],
+					[1],
+					[0]
+				],
+				"word_highlights2": [
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[]
+				]
+            },
+            "variables": []
+        },
+        "tutorial2o": {
+            "sign": [
+                "Удерживайте$, чтобы зарядить",
+                "метательную атаку.",
+                "",
+                "Заряженные броски летят дальше",
+                "и наносят больше урона."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": -4,
+                "word_highlights": [
+                    [0,2],
+					[],
+					[],
+					[2],
+					[1]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/hardthrow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "input_glyph",
+                    "value": "Attack"
+                }
+            ]
+        },
+        "tutorial2q": {
+            "sign": [
+                "Эта марионетка бронирована.",
+                "$$",
+                "Пронзающие боеприпасы",
+                "игнорируют защиту и",
+                "наносят больше урона",
+				"бронированным врагам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight2_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [],
+                    [],
+                    [0],
+                    [0],
+                    [],
+					[]
+                ],
+				"word_highlights2": [
+                    [1,2],
+                    [],
+                    [1],
+                    [1],
+                    [],
+					[0]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/longbow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_longbow.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_pierce.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
+        "tutorial2p": {
+            "sign": [
+                "Серебряные стрелы",
+                "",
+                "$",
+                "Смертоноснее против",
+                "демонов и нежити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "font_highlight_color": {
+                    "r": 64,
+                    "g": 192,
+                    "b": 255,
+                    "a": 255
+                },
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+                    [0,1],
+                    [],
+                    [],
+                    [],
+                    [0,2]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial2/silver.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            "variables": [
+                {
+                    "type": "image",
+                    "value": "*#data/scripts/tutorial2/sign_silver.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
+        }
+    }
+}

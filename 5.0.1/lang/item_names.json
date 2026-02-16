@@ -1462,8 +1462,8 @@
 			"name_unidentified": "шипованные сапоги"
 		},
 		"bandit_breastpiece": {
-            "name_identified": "бандитская кожа",
-            "name_unidentified": "бандитская кожа"
+            "name_identified": "бандитский нагрудник",
+            "name_unidentified": "бандитский нагрудник"
         },
 		"tunic_blouse": {
             "name_identified": "блуза",
@@ -2310,7 +2310,7 @@
 			"name": "Благословенная трапеза"
 		},
 		"spell_shrub": {
-			"name": "Прорастание"
+			"name": "Прорастание кустарника"
 		},
 		"spell_conjure_food": {
 			"name": "Сотворение пищи"
@@ -2574,7 +2574,7 @@
 			"name": "Захват магии"
 		},
 		"spell_deface": {
-			"name": "Порча"
+			"name": "Разрушение"
 		},
 		"spell_sunder_monument": {
 			"name": "Раскол монумента"
